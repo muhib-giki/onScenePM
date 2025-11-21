@@ -4,7 +4,6 @@ type Props = {
     name: string;
     buttonComponent?: any;
     isSmallText?: boolean;
-
 }
 
 const Header = ({ name, buttonComponent, isSmallText = false }: Props) => {
